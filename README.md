@@ -21,3 +21,16 @@ URL para clone: http://www.facebook.com
 ![Captura de tela 2025-01-18 234303](https://github.com/user-attachments/assets/d368a74e-9f9d-4f65-b9d6-c9b104899292)
 ![Captura de tela 2025-01-18 234236](https://github.com/user-attachments/assets/13a78d9b-8cad-4cdb-9ac8-a6fc73c56a1e)
 ![Captura de tela 2025-01-18 234141](https://github.com/user-attachments/assets/1ae6d60b-d1ae-4d4c-8794-a9f2bb8cb6d5)
+
+
+Passo a passo para a realização do desafio:
+
+1- caso seja necessário modificar o usuário para root, se utiliza "sudo su", enter, senha padrão do kali e entramos como root
+2- após isso é necessário ativar a ferramenta setoolkit usando "sudo setoolkit", enter e pronto
+3- opção "website attack vectors" ou opção padrão "2"
+4- opção 3 ou "credential harvester attack method"
+5- opção 2 ou "site cloner"
+6- logo em seguida é dado o ip da máquina permitindo que outras máquinas sejam acessadas por ela, enter
+7- após isso é colocado a url do site que se deseja clonar, neste caso o facebook (http://www.facebook.com)
+8- depois de dar enter e a url estar clonada, vamos acessar a mesma utilizando o ip da nossa máquina 
+9- são mostradas no kali as informações a partir do momento que a página fake é usada 
